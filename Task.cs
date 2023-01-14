@@ -11,13 +11,24 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
+            string otvet = "";
+            while (otvet.ToLower() != "yes" && otvet.ToLower() != "no")
+            {
+                Console.Write("Введёте данные вручную? (yes/no): ");
+                otvet = Console.ReadLine();
+            }
 
-
-
-
-
+            string[] massiveS = new string[] { };
 
             
+
+
+
+
+
+
+
+
 
         }
     }
